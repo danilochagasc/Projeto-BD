@@ -1,0 +1,92 @@
+/* Reset de estilos para evitar conflitos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #f57224; /* Laranja escuro */
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #f57224; /* Laranja escuro */
+}
+
+a {
+    color: #f57224; /* Laranja escuro */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 8px 0;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"], .addCentro {
+    background-color: #f57224; /* Laranja escuro */
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"],.addCentro:hover {
+    background-color: #e6550f; /* Laranja mais claro */
+}
+
+
+/* Estilização para os links de editar e remover */
+li a {
+    margin-left: 10px;
+}
+
+/* Estilização para a mensagem de nenhum centro de doação encontrado */
+li.empty {
+    color: #888;
+    font-style: italic;
+}
+
+td, th {
+    
+    border:groove lightslategray;
+    padding: 5px;
+    text-align: center;
+   }
+   
+   th {
+    background-color: #cc6600;
+   }
+   
